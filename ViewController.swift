@@ -64,6 +64,9 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("Click at indexpath \(indexPath.row)")
+    }
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
