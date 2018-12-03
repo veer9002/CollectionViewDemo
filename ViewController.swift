@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     var dataArray = [UIImage]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         dataArray = [UIImage(named: "1"),
@@ -30,16 +30,20 @@ class ViewController: UIViewController {
                      UIImage(named: "1"),
                      UIImage(named: "2"),
                      UIImage(named: "3"),
-                     UIImage(named: "4"),UIImage(named: "1"),
+                     UIImage(named: "4"),
+                     UIImage(named: "1"),
                      UIImage(named: "2"),
                      UIImage(named: "3"),
-                     UIImage(named: "4"),UIImage(named: "1"),
+                     UIImage(named: "4"),
+                     UIImage(named: "1"),
                      UIImage(named: "2"),
                      UIImage(named: "3"),
-                     UIImage(named: "4"),UIImage(named: "1"),
+                     UIImage(named: "4"),
+                     UIImage(named: "1"),
                      UIImage(named: "2"),
                      UIImage(named: "3"),
-                     UIImage(named: "4"),UIImage(named: "1"),
+                     UIImage(named: "4"),
+                     UIImage(named: "1"),
                      UIImage(named: "2"),
                      UIImage(named: "3"),
                      UIImage(named: "4"),
